@@ -1,0 +1,224 @@
+h1{
+	color:black;
+	font-family: 'Dancing Script', cursive;
+	padding-left: 30px;
+	margin: 0;
+}
+
+
+body{
+
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content: center;
+	align-content:flex-start;
+	align-items: stretch;
+
+}
+
+header{
+	background: white;
+	flex-grow:1;
+	flex-basis:100%;
+}
+
+nav{
+	flex-grow:1;
+	flex-basis:100%;
+}
+
+nav ul{
+	display: flex;
+	background: #F48FB1;
+	flex-direction: row;
+	flex-grow:1;
+	flex-basis:100%;
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	font-family: 'Bitter', serif;
+	text-align: center;
+}
+ul{
+	align: center;
+}
+li{
+	flex-grow: 1;
+	flex-basis: 100px;
+	padding: 5px;
+	border-right: 2px solid white;
+	transition: 0.25s;
+}
+
+li:last-child{
+	border: none;
+}
+
+li:hover{
+	background: #4DB6AC;
+}
+
+a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	transition: color 0.5s;
+	padding: 5px;
+}
+
+
+section{
+	width: 100%;	
+	background-color: grey;
+	height: 100%;		
+}
+
+hr{
+	display: block;
+	color: black;
+}
+	
+
+.active{
+	background-color: #4DB6AC;
+}
+
+.home_container{
+	width: 100%;
+	height: 100%;
+	background-image: url("/ind.jpg");
+	background-size: cover;
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+
+}
+
+.about_container{
+	flex-basis: 100%;
+	min-height: calc(100vh - 30px);
+	background-image: url(/aboutme.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+	font-family: 'Dancing Script', cursive;
+}
+
+.flex_item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	padding: 1.5em 1em;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.flex_container{
+	padding: 5em;
+	overflow: auto;
+	border-radius:5px;
+	display: block;
+	margin-left: 50px;
+	align-self: center;	
+}
+
+#heading{
+	font-size: 4em;
+	color: white;
+}
+
+#desc{
+	font-size: 2em;
+	color:white;
+}
+
+#aboutme{
+	font-size: 2em;
+	color: white;
+	text-align: center;
+	padding:100px;
+	font-family: 'Bitter', serif;
+}
+
+#imaging{
+	width: 350px;
+	height: 450px;
+	padding:10px;
+	border-radius:25px;
+	transition: 0.35s;
+}
+
+#imaging:hover{
+	opacity: 0.7;
+}
+
+#location{
+	font-size: 1em;
+}
+
+#Description{
+	font-size: 0.95em;
+	color:grey;
+	text-align: justify;
+}
+#the_heading{
+	font-family: 'Bitter',serif;
+	font-size: 1.25em;
+	padding: 0;
+	margin:0;
+	margin-top: 20px;
+	font-weight: 30;
+}
+
+#location{
+	margin:0;
+}
+
+#date{
+	margin:0;
+}
+
+.travel_container{
+	width: 100%;
+	height: 100%;
+	font-size: 1em;
+	padding: 0;
+	font-family: 'Bitter', serif;
+	padding: 5em;
+	overflow: auto;
+	border-radius:5px;
+}
+
+#travelimg{
+	width: 275px;
+	height: 350px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin:auto;
+
+}
+
+#travelimg1{
+	width: 500px;
+	height: 350px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin:auto;
+}
+
+.flex_container1{
+	position:relative;
+	padding: 5em;
+	overflow: auto;
+	border:0;
+	padding:0;
+
+}
